@@ -14,7 +14,7 @@ function prefix(a) {
     while (i < end && a[0][i] == a[size - 1][i])
         i++;
 
-    let prefix = a[0].substring(0, i);
+    let prefix = a[0].slice(0, i);
     return prefix;
 }
 
