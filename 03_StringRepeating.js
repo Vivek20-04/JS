@@ -6,8 +6,7 @@ function lengthOfLongestSubstring(s) {
 
     for (let char of s) {
         if (currentSubstring.includes(char)) {
-            currentSubstring = currentSubstring.slice(currentSubstring.indexOf(char) + 1);
-            console.log(currentSubstring)
+            currentSubstring = currentSubstring.slice(currentSubstring.indexOf(char) + 1);                   
         }
         currentSubstring += char;
         if (currentSubstring.length > maxLength) {
@@ -20,4 +19,4 @@ function lengthOfLongestSubstring(s) {
 }
 
 
-console.log("Length:", lengthOfLongestSubstring("xyzhx")); 
+console.log("Length:", lengthOfLongestSubstring("abcadba")); 
