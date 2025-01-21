@@ -13,8 +13,8 @@ let matrix=[
     let newArr= [[],[],[]]
     function rotateMatrix(rM){
         
-        for(let i =0;i<=matrix.length-1 ;i++){
-            for(let j = matrix.length-1 ; j>=0 ; j--){
+        for(let i =0;i<=rM.length-1 ;i++){
+            for(let j = rM.length-1 ; j>=0 ; j--){
                 newArr[i].push(rM[j][i])
             }
         }
