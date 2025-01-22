@@ -1,4 +1,4 @@
-let arr = ["Fk","Fikkzz","Fko"]
+let arr = ["ABC", "ABD", "ABCD"]
 
 function prefix(a) {
     let size = a.length
